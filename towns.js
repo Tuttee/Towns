@@ -28,7 +28,6 @@ function deleteTown() {
         showMessage(townName + " not found.");
 }
 
-<<<<<<< HEAD
 function showMessage(msg) {
     $('#result').text(msg).css("display", "block");
     setTimeout(function () {
@@ -37,7 +36,6 @@ function showMessage(msg) {
 }
 
 
-=======
 function shuffleTowns() {
 	let towns = $('#towns option').toArray();
 	$('#towns').empty();
@@ -54,7 +52,7 @@ function shuffleTowns() {
 		}
 	}
 }
->>>>>>> refs/remotes/origin/main
+
 function addTown() {
 	let townName = $('#townNameForAdd').val();
 	$('#townNameForAdd').val('');
